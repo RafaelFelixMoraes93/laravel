@@ -11,6 +11,8 @@ Route::get('/outrasaida', [SiteController::class,'outrasaida']);
 
 Route::get('/teste', [SiteController::class,'teste']);
 
+Route::get('/sobre', [SiteController::class,'sobre']);
+
 // Route::get('/', function () {
 //     return 'Ainda estou no Router!';
 //     //return view('bemvindo');
