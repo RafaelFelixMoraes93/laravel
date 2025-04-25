@@ -23,4 +23,8 @@ class SiteController extends Controller
     public function teste() {
         return view("teste");
     }
+
+    public function sobre() {
+        return view("sobre");
+    }
 } 
