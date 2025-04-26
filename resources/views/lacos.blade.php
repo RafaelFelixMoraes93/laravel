@@ -11,12 +11,22 @@
 
     <h2>FOR</h2>
     <p>Adicionamos @ antes do for e finalizamos com @ endfore não abrimos o blocos de chaves.</p>
-    <p>@ for($i=1; $i<10; $i++)></p>
+    <p>@ for"("$i=1; $i<10; $i++")"</p>
     <p>pConteúdo a ser exibir ou modificado./p</p>
     <p>@ endfor</p>
 
     <h2>FOREACH</h2>
-    <p></p>
+    <p>Para trabalhar com FOREACH, precisamos trazer informações do controller.</p>
+    <p>@ foreach"("$ingredientes as $ing")"</p>
+    <p>$ing dentro de chaves duplas</p>
+    <p>@ endforeach</p>
+
+    <p><strong>Percorrendo o array</strong></p>
+
+    @foreach ($ingredientes as $ing)
+        <p>{{$ing}} <span> DELETE</span></p>
+    @endforeach    
+    
     
 </body>
 </html>
