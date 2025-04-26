@@ -28,3 +28,5 @@ Route::get('ultimo/{valor}', [SiteController::class,'ultimovalor']);
 Route::get('blade', [SiteController::class,'bladerota']);
 
 Route::get('condicionais', [SiteController::class,'condicionais']);
+
+Route::get('/lacos', [SiteController::class,'lacos']);
