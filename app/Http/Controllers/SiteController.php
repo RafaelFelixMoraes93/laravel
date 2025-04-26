@@ -68,4 +68,14 @@ class SiteController extends Controller
         $data = ['ultimovalor'=>$request -> valor] ;
         return view('finalurl', $data);
     }
+
+    public function bladerota() {
+        $nome = "Blade";
+        $html = "<b>Palavra em negrito<b/>";
+        $data = [
+            'blade'=>$nome,
+            'html'=>$html
+        ];
+        return view('blade', $data);
+    }
 } 

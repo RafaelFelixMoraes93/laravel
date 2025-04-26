@@ -24,3 +24,5 @@ Route::get('ultimo/{valor}', [SiteController::class,'ultimovalor']);
 //     return 'Ainda estou no Router!';
 //     //return view('bemvindo');
 // });
+
+Route::get('blade', [SiteController::class,'bladerota']);
