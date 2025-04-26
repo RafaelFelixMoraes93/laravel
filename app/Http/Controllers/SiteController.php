@@ -86,6 +86,15 @@ class SiteController extends Controller
     }
 
     public function lacos() {
-        return view('lacos');
+        $data = [
+            'ingredientes' => [
+                'farinha',
+                'ovos',
+                'farinha 2',
+                'ovos 2'
+            ]
+        ];
+
+        return view('lacos', $data);
     }
 } 
