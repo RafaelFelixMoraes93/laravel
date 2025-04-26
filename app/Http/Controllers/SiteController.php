@@ -78,4 +78,10 @@ class SiteController extends Controller
         ];
         return view('blade', $data);
     }
+
+    public function condicionais(){
+        $nome = 'Pedro';
+        $data = ['nome'=>$nome];
+        return view('condicionais', $data);
+    }
 } 
