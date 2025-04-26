@@ -13,6 +13,13 @@ Route::get('/teste', [SiteController::class,'teste']);
 
 Route::get('/sobre', [SiteController::class,'sobre']);
 
+Route::get('/usuarios/{quantidade}', [SiteController::class,'users']);
+
+Route::get('/parametrourl/{valor}', [SiteController::class,'parametros']);
+
+Route::get('parametro2/{passandovalor}', [SiteController::class,'segundoparametro']);
+
+Route::get('ultimo/{valor}', [SiteController::class,'ultimovalor']);
 // Route::get('/', function () {
 //     return 'Ainda estou no Router!';
 //     //return view('bemvindo');

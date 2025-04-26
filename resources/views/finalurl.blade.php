@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Bem vindo, {{$nome}}.</h1>
+    <h1>Passando ultimo valor do url: {{$ultimovalor}}</h1>
 </body>
 </html>
