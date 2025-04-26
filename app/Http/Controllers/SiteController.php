@@ -84,4 +84,8 @@ class SiteController extends Controller
         $data = ['nome'=>$nome];
         return view('condicionais', $data);
     }
+
+    public function lacos() {
+        return view('lacos');
+    }
 } 
