@@ -20,9 +20,9 @@
 
     <h2>Criando uma condicional para teste</h2>
     @if($nome == 'Pedro')
-        <p>O nome é {{$nome}}</p>
+        <p>O nome é {{$nome}}.</p>
     @else
-        <p>O nome não é {{@nome}}</p>
+        <p>O nome não é {{@nome}}.</p>
     @endif
 </body>
 </html>
