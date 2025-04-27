@@ -1,1 +1,8 @@
-<button style="background-color: rgb(192, 28, 28); color: white; border: 0cap; padding: 5px;">Deletar</button>
+<button style="
+    background-color: {{$cor}};
+    color: white;
+    border: none;
+    padding: 5px;
+">
+    {{$slot}}
+</button>
