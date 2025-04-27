@@ -32,3 +32,5 @@ Route::get('condicionais', [SiteController::class,'condicionais']);
 Route::get('/lacos', [SiteController::class,'lacos']);
 
 Route::get('components', [SiteController::class,'components']);
+
+Route::get('exercicioscomponent', [SiteController::class,'exerciciocomponente']);
