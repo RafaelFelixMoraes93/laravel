@@ -38,3 +38,5 @@ Route::get('exercicioscomponent', [SiteController::class,'exerciciocomponente'])
 Route::get('/include', [SiteController::class,'index2']);
 
 Route::get('/include2', [SiteController::class,'index2include']);
+
+Route::get('/componenteinclude', [SiteController::class,'indexcomponenteinclude']);
