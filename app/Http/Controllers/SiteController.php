@@ -136,4 +136,8 @@ class SiteController extends Controller
     
         return view('exerciciocomponente', $dados);        
     }
+
+    public function index2() {
+        return view('index2');
+    }
 } 
