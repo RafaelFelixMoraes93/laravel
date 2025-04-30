@@ -150,4 +150,30 @@ class SiteController extends Controller
         ];
         return view('index2include', $data);
     }
+
+    public function indexcomponenteinclude() {
+        $pessoas = [
+            [ 
+                'image' => 'https://i.pravatar.cc/150?img='.rand(0,50),  
+                'nome' => 'Alessandro', 
+                'birth' => '29/01/90', 
+                'idade' => 29],
+  
+              [ 
+                'image' => 'https://i.pravatar.cc/150?img='.rand(0,50), 
+                'nome' => 'Bonieky', 
+                'birth' => '10/11/1933', 
+                'idade' => 90],
+  
+              [ 
+                'image' => 'https://i.pravatar.cc/150?img='.rand(0,50), 
+                'nome' => 'Maria', 
+                'birth' => '01/01/2000', 
+                'idade' => 25]
+        ];
+
+        $dados['pessoas'] = $pessoas;
+    
+        return view('indexcomponenteinclude', $dados);        
+    }
 } 
