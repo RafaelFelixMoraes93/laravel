@@ -34,3 +34,5 @@ Route::get('/lacos', [SiteController::class,'lacos']);
 Route::get('components', [SiteController::class,'components']);
 
 Route::get('exercicioscomponent', [SiteController::class,'exerciciocomponente']);
+
+Route::get('/include', [SiteController::class,'index2']);
