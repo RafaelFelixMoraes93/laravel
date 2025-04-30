@@ -140,4 +140,14 @@ class SiteController extends Controller
     public function index2() {
         return view('index2');
     }
+
+    public function index2include() {
+        $nome = 'Pedro';
+        $sobreNome = 'Felix';
+        $data = [
+            'nome'=> $nome,
+            'sobreNome'=> $sobreNome
+        ];
+        return view('index2include', $data);
+    }
 } 
